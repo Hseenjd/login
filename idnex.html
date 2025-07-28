@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شلليوم التاج لخدمات الحاسبات</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">شلليوم التاج</div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">الرئيسية</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="contact.html">تواصل معنا</a></li>
+          <li><a href="privacy.html">سياسة الخصوصية</a></li>
+          <li><button id="toggle-dark">الوضع الليلي</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <h1>مرحبًا بكم في شلليوم التاج لخدمات الحاسبات</h1>
+        <p id="today"></p>
+      </section>
+
+      <section class="search-filter">
+        <input type="text" id="search" placeholder="🔍 ابحث عن منتج..." />
+        <select id="filter">
+          <option value="">كل الأنواع</option>
+          <option value="laptop">لابتوب</option>
+          <option value="desktop">حاسوب مكتبي</option>
+          <option value="accessory">إكسسوارات</option>
+        </select>
+      </section>
+
+      <section class="products-grid" id="products">
+        <!-- المنتجات ستولد هنا بواسطة السكريبت -->
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 شلليوم التاج لخدمات الحاسبات | واتساب:
+      <a href="https://wa.me/96407771928004">+964 07771928004</a> | بريد:
+      <a href="mailto:hm0266487@gmail.com">hm0266487@gmail.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
